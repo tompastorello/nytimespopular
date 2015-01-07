@@ -1,0 +1,13 @@
+<h2> Please choose only 1 of the following 5 main NY Times Sections: </h2>
+<hr>
+<br>
+<div class="row text-center">
+  <% @sections.each do |section| %>
+    <div class="col-md-4">
+      <p><%= section.timessection.capitalize %></p>
+ 
+      <%= link_to "All Articles", section %>
+     
+    </div>
+<% end %>
+</div>

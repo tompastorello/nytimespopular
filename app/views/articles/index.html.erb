@@ -1,0 +1,15 @@
+<h2> Most Popular Articles: </h2>
+<hr>
+<br>
+<div class="row text-center">
+  <% @articles.each do |article| %>
+    <div class="col-md-4">
+      <h3><%= article.title.capitalize %></h3>
+      <p><%= article.description %></p>
+      <p><%= link_to "Article", article.urllink %></p>
+      <p><%= article.articledate %></p>
+      <p><%= article.author.authorname %></p>
+      <br>
+    </div>
+<% end %>
+</div>
