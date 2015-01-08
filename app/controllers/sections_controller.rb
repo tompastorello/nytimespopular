@@ -49,7 +49,8 @@ class SectionsController < ApplicationController
  
   def show
   @section = Section.find(params[:id])
-  @articlessection = Article.where(section_id: 5)
+  @articlessection = Article.where(section_id: params[:id])
+
   end
   	
       
