@@ -13,20 +13,20 @@
   #   email: 'tompastorello@gmail.com',
   # )
 
-# Sections: Do 1x
-# food = Section.create(
-#     timessection: 'food'
-#   )
-# garden = Section.create(
-#     timessection: 'garden'
-#   )
-# technology = Section.create(
-#     timessection: 'technology'
-#   )
-# health = Section.create(
-#     timessection: 'health'
-#   )
-# sports = Section.create(
-#     timessection: 'sports'
-#   )
+Sections: Do 1x
+food = Section.create(
+    timessection: 'food'
+  )
+garden = Section.create(
+    timessection: 'garden'
+  )
+technology = Section.create(
+    timessection: 'technology'
+  )
+health = Section.create(
+    timessection: 'health'
+  )
+sports = Section.create(
+    timessection: 'sports'
+  )
 
